@@ -5,6 +5,7 @@ Doc officielle pour l'installation de Docker : https://docs.docker.com/engine/in
 ## Installation de fakeBlinux
 ```
 git clone https://github.com/rotarui/fakeBlinux
+cd fakeBlinux
 ./install
 ```
 
