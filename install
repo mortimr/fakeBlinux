@@ -4,6 +4,7 @@ docker build -t fakeblinux .
 sudo cp ./scripts/Make /bin
 sudo cp ./scripts/Exec /bin
 sudo cp ./scripts/Gcc /bin
+sudo cp ./scripts/G++ /bin
 sudo cp ./scripts/blinux /bin
 sudo cp ./scripts/blinux_build /bin
 sudo cp ./scripts/blinux_full_rebuild /bin
