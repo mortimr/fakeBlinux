@@ -1,3 +1,3 @@
 #! /bin/sh
 
-docker run -it -v `pwd`:/root/Work fakeblinux /usr/bin/fish -c "g++ *.c -Wall -Wextra -Werror -std=c++03 -I.;and ${*};exit"
+docker run -it -v `pwd`:/root/Work fakeblinux bash -c "g++ *.c -Wall -Wextra -Werror -std=c++03 -I. && ${*};exit"
