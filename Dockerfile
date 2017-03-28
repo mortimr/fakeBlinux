@@ -4,7 +4,7 @@ RUN zypper --non-interactive addrepo http://download.opensuse.org/repositories/d
 RUN zypper --gpg-auto-import-keys -n update
 RUN zypper refresh
 RUN zypper --non-interactive install +libgcc_s1-gcc6 -libgcc_s1
-RUN zypper --non-interactive install -n bash python curl git tar make gcc6 valgrind
+RUN zypper --non-interactive install -n bash python curl git tar make gcc6 valgrind nasm
 RUN zypper -n --non-interactive install \
     clang             \
     make
